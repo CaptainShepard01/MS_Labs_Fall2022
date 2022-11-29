@@ -22,5 +22,5 @@ if __name__ == '__main__':
                                               key_color="purple",
                                               showKeyVelocity=True)
 
-    ptc.load_midi_file("input_midi_files/believer.mid", verbose=True)
-    ptc.render("output_video_files/believer.mp4", verbose=True)
+    ptc.load_midi_file("files/believer.mid", verbose=True)
+    ptc.render("files/believer.mp4", verbose=True)

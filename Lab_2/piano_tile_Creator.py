@@ -1,8 +1,9 @@
-from tqdm import trange
+from tqdm import tqdm, trange
 import matplotlib.animation as manimation
 import matplotlib.pyplot as plt
 from miditoolkit.midi import parser as midi_parser
 
+import numpy as np
 import matplotlib
 matplotlib.use("Agg")
 
