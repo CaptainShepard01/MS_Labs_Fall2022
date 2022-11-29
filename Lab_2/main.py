@@ -11,9 +11,9 @@ if __name__ == '__main__':
     # speed of the falling tiles (pixels per sec)
     TILE_VELOCITY = 500
 
-    import piano_tile_Creator
+    import piano_tile_creator
 
-    ptc = piano_tile_Creator.PianoTileCreator(video_width=VIDEO_WIDTH,
+    ptc = piano_tile_creator.PianoTileCreator(video_width=VIDEO_WIDTH,
                                               video_height=VIDEO_HEIGHT,
                                               video_dpi=VIDEO_DPI,
                                               video_fps=VIDEO_FPS,
